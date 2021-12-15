@@ -1,3 +1,43 @@
 body {
     color: blueviolet;
 }
+
+header {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr;
+    gap: 20px;
+  }
+  
+.topimage {
+    max-width: 100%;
+    grid-column: 1 / 5;
+    grid-row: 1 /  1;
+}
+
+h1 {
+    text-align: center;
+}
+
+nav {
+    background-color: rgb(255, 255, 255);
+    padding: .5em;
+    position: sticky;
+    top: 0px;
+    left: 0px;
+  }
+
+  nav ol {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  
+  nav a {
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    padding: .5em 1em;
+  }

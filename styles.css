@@ -47,9 +47,9 @@ nav {
     margin: 0 auto;
     padding: 50px 20px;
     max-width: 980px;
+    display: grid;
+    grid-template-columns: 2fr 1fr;
      }
-
-
 
   figure {
     border: 1px solid gray;
@@ -63,9 +63,16 @@ nav {
     width: 350px;
   }
 
-  figure .bimac {
+  .bimac {
     float: left;
-    margin-right: 15px;
+    margin-right: 10px;
+    margin-left: 0px;
+  }
+
+  .mellifera {
+    float: right;
+    margin-right: 0px;
+    margin-left: 10px;
   }
 
 

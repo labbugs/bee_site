@@ -47,9 +47,10 @@ nav {
     padding: 50px 20px;
     max-width: 980px;
     display: grid;
-    grid-template-columns: 2fr 1fr;
+    grid-template-columns: 3fr 1fr;
     font-size: 125%;
      }
+
 
   figure {
     border: 1px solid gray;
@@ -73,6 +74,10 @@ nav {
     float: right;
     margin-right: 0px;
     margin-left: 10px;
+  }
+
+  .small {
+    font-size: 75%;
   }
 
 
